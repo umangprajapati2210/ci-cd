@@ -1,5 +1,5 @@
 # Step 1: Use Apache HTTP Server Image
-FROM httpd:2.4
+FROM httpd:2.4-alpine
 # Step 2: Set Working Directory
 WORKDIR /usr/local/apache2/htdocs/
 # Step 3: Copy Website Files
